@@ -1,5 +1,3 @@
-# Networking-Technologies
-
 # NS-3.36.1 Installation Guide
 
 This guide provides step-by-step instructions for installing NS-3.36.1 on an Ubuntu-based system. Please make sure you have administrative privileges and a working internet connection before you begin.
@@ -46,4 +44,54 @@ Run the build script with options to enable examples and tests:
 ```
 ./build.py --enable-examples --enable-tests
 ```
+
+# NS-3.36.1 Installation Guide using Bash Script 
+
+## 1. Clone the Repository
+```
+git clone https://github.com/ragu8/Networking-Technologies
+```
+## 2. Change Directory
+```
+cd Networking-Technologies
+```
+## 3. Add Execute Permissions
+```
+chmod +x ns3.sh
+```
+## 4. Run the Bash Script
+```
+bash ns3.sh
+
+```
+
+# Executing C++ Program
+
+## Navigate to NS-3 Directory
+
+```
+cd ns-3.36.1
+
+```
+## Command to Execute C++ Program
+
+```
+./ns3 run scratch/filename
+
+```
+# Executing Python Program
+
+## Navigate to NS-3 Directory
+
+```
+cd ns-3.36.1
+```
+## Command to Execute Python Program
+
+```
+./ns3 run scratch/filename.py
+```
+
+
+
 
